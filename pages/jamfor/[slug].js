@@ -6,6 +6,12 @@ var PC = '#6d28d9';
 var SITE = 'VPN Guiden';
 var BASE_URL = 'https://vpnkollen.vercel.app';
 var YEAR = new Date().getFullYear();
+var _TB = 'axiom-engine-production-54c3.up.railway.app/r';
+var _SL = 'vpnkollen';
+function _aff(name, url) {
+  if (_TB && _TB !== '/r') return _TB + '?p=' + encodeURIComponent(name) + '&url=' + encodeURIComponent(url) + '&site=' + _SL;
+  return url;
+}
 export function getStaticPaths() { return { paths: _paths, fallback: false }; }
 export function getStaticProps({ params }) {
   var data = _comp[params.slug];
@@ -60,7 +66,7 @@ export default function ComparisonPage({ compSlug, nameA, urlA, priceA, scoreA, 
                     <span style={{ color:'#374151' }}>{pro}</span>
                   </div>
                 ); })}
-                <a href={p.url + '?ref=axiom'} target="_blank" rel="noopener noreferrer sponsored" style={{ display:'block', marginTop:18, background:isWinner?PC:'#0f172a', color:'#fff', padding:'11px 0', borderRadius:9, fontWeight:700, fontSize:14, textDecoration:'none', textAlign:'center' }}>Välj {p.name} →</a>
+                <a href={_aff(p.name, p.url)} target="_blank" rel="noopener noreferrer sponsored" style={{ display:'block', marginTop:18, background:isWinner?PC:'#0f172a', color:'#fff', padding:'11px 0', borderRadius:9, fontWeight:700, fontSize:14, textDecoration:'none', textAlign:'center' }}>Välj {p.name} →</a>
               </div>
             );
           })}
