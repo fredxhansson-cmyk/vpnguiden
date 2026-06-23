@@ -5,19 +5,19 @@ export default function OmOss() {
   return (
     <>
       <Head>
-        <title>Om oss — VPNkollen</title>
+        <title>Om oss — VPN Guiden</title>
         <meta name="description" content="Lär dig om vår redaktionspolicy, hur vi granskar leverantörer och hur vår affiliatemarknadsföring fungerar." />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
       </Head>
       <nav style={{ background:'#fff', borderBottom:'1px solid #e2e8f0', padding:'0 20px', height:60, display:'flex', alignItems:'center', justifyContent:'space-between', position:'sticky', top:0, zIndex:100, fontFamily:'Inter,sans-serif' }}>
-        <Link href="/" style={{ fontWeight:800, fontSize:18, color:pc, textDecoration:'none' }}>VPNkollen</Link>
+        <Link href="/" style={{ fontWeight:800, fontSize:18, color:pc, textDecoration:'none' }}>VPN Guiden</Link>
         <Link href="/" style={{ fontSize:14, color:'#64748b', textDecoration:'none' }}>← Tillbaka till jämförelsen</Link>
       </nav>
       <main style={{ maxWidth:760, margin:'0 auto', padding:'56px 20px', lineHeight:1.8, color:'#374151', fontFamily:'Inter,sans-serif' }}>
-        <h1 style={{ fontSize:38, fontWeight:800, marginBottom:8, color:'#0f172a' }}>Om VPNkollen</h1>
+        <h1 style={{ fontSize:38, fontWeight:800, marginBottom:8, color:'#0f172a' }}>Om VPN Guiden</h1>
         <p style={{ fontSize:17, color:'#64748b', marginBottom:40 }}>Vi är en oberoende jämförelsetjänst som hjälper svenska konsumenter hitta de bästa alternativen inom vpn.</p>
         <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, color:'#0f172a' }}>Vad gör vi?</h2>
-        <p style={{ marginBottom:20, fontSize:15 }}>VPNkollen är en SEO-driven jämförelsesajt som samlar och presenterar information om leverantörer inom vpn. Vi rangordnar och betygsätter baserat på pris, villkor, kundservice och användarrecensioner. Vår trafikkälla är organisk söktrafik via Google och Bing.</p>
+        <p style={{ marginBottom:20, fontSize:15 }}>VPN Guiden är en SEO-driven jämförelsesajt som samlar och presenterar information om leverantörer inom vpn. Vi rangordnar och betygsätter baserat på pris, villkor, kundservice och användarrecensioner. Vår trafikkälla är organisk söktrafik via Google och Bing.</p>
         <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, marginTop:40, color:'#0f172a' }}>Redaktionspolicy</h2>
         <p style={{ marginBottom:16, fontSize:15 }}>Alla jämförelser och betyg baseras på noggrann research och analys av pris, villkor, kundservice och användarrecensioner. Vår redaktion är oberoende — kommersiella hänsyn påverkar aldrig rankingen. Vi uppdaterar vår data regelbundet för att säkerställa att informationen stämmer.</p>
         <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, marginTop:40, color:'#0f172a' }}>Affiliateinformation</h2>
