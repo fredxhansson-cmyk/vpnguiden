@@ -15,15 +15,15 @@ export default function OmOss() {
       </nav>
       <main style={{ maxWidth:760, margin:'0 auto', padding:'56px 20px', lineHeight:1.8, color:'#374151', fontFamily:'Inter,sans-serif' }}>
         <h1 style={{ fontSize:38, fontWeight:800, marginBottom:8, color:'#0f172a' }}>Om VPN Guiden</h1>
-        <p style={{ fontSize:17, color:'#64748b', marginBottom:40 }}>Vi är en oberoende jämförelsetjänst som hjälper svenska konsumenter hitta de bästa alternativen inom vpn.</p>
-        <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, color:'#0f172a' }}>Vad gör vi?</h2>
-        <p style={{ marginBottom:20, fontSize:15 }}>VPN Guiden är en SEO-driven jämförelsesajt som samlar och presenterar information om leverantörer inom vpn. Vi rangordnar och betygsätter baserat på pris, villkor, kundservice och användarrecensioner. Vår trafikkälla är organisk söktrafik via Google och Bing.</p>
+        <p style={{ fontSize:17, color:'#64748b', marginBottom:40 }}>VPN Guiden drivs av Qubeit — ett svenskt bolag som bygger oberoende jämförelsetjänster för svenska konsumenter.</p>
+        <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, color:'#0f172a' }}>Vad vi gör</h2>
+        <p style={{ marginBottom:20, fontSize:15 }}>VPN Guiden samlar och presenterar information om leverantörer inom vpn. Vi rangordnar och betygsätter baserat på pris, villkor, kundservice och användarrecensioner. Vår trafik kommer från organisk söktrafik via Google och Bing.</p>
         <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, marginTop:40, color:'#0f172a' }}>Redaktionspolicy</h2>
-        <p style={{ marginBottom:16, fontSize:15 }}>Alla jämförelser och betyg baseras på noggrann research och analys av pris, villkor, kundservice och användarrecensioner. Vår redaktion är oberoende — kommersiella hänsyn påverkar aldrig rankingen. Vi uppdaterar vår data regelbundet för att säkerställa att informationen stämmer.</p>
+        <p style={{ marginBottom:16, fontSize:15 }}>Alla jämförelser och betyg baseras på oberoende analys av pris, villkor och kundservice. Kommersiella hänsyn påverkar aldrig rankingen. Vi uppdaterar informationen regelbundet för att den alltid ska stämma.</p>
         <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, marginTop:40, color:'#0f172a' }}>Affiliateinformation</h2>
-        <p style={{ marginBottom:16, fontSize:15 }}>Vi samarbetar med leverantörer via Adtraction Sverige. Vi kan ta emot provision när du väljer en tjänst via våra länkar. Provisionen påverkar aldrig priset för dig och påverkar inte våra oberoende betyg. Kanaltyp: webbplats med organisk söktrafik (SEO).</p>
+        <p style={{ marginBottom:16, fontSize:15 }}>Qubeit samarbetar med leverantörer via Adtraction Sverige. Vi kan ta emot provision när du väljer en tjänst via våra länkar. Provisionen påverkar aldrig priset för dig och påverkar inte våra betyg. Kanaltyp: webbplats med organisk söktrafik (SEO).</p>
         <h2 style={{ fontSize:22, fontWeight:700, marginBottom:12, marginTop:40, color:'#0f172a' }}>Kontakt</h2>
-        <p style={{ fontSize:15 }}>Frågor om vår redaktionspolicy eller innehåll? <Link href="/kontakt" style={{ color:pc, fontWeight:600 }}>Kontakta oss här</Link>.</p>
+        <p style={{ fontSize:15 }}>Frågor? <Link href="/kontakt" style={{ color:pc, fontWeight:600 }}>Kontakta oss här</Link>.</p>
       </main>
     </>
   );
