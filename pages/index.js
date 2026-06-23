@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const WEB_PAGE_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Bäst VPN för streaming 2026 | Jämför & Välj\",\"description\":\"Bäst VPN för streaming 2026 ✓ Uppdaterad 2026. Jämför 5 alternativ och hitta den perfekta för ditt behov. Läs mer och börja streama säkert.\",\"url\":\"https://vpnkollen.vercel.app\",\"datePublished\":\"2026-06-23\",\"dateModified\":\"2026-06-23\",\"inLanguage\":\"sv-SE\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"VPN Guiden\",\"url\":\"https://vpnkollen.vercel.app\"},\"breadcrumb\":{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Hem\",\"item\":\"https://vpnkollen.vercel.app\"}]}}";
-const ITEM_LIST_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Bäst VPN för streaming 2026 — Jämför 5 Alternativ — Jämförelse 2026\",\"description\":\"Hitta den bästa VPN-tjänsten för streaming i Sverige\",\"numberOfItems\":5,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"Product\",\"name\":\"NordVPN\",\"url\":\"https://nordvpn.com\",\"description\":\"Världens ledande VPN — 6 000+ servrar globalt\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.8\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"230\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"Product\",\"name\":\"Mullvad\",\"url\":\"https://mullvad.net/sv\",\"description\":\"Svensk VPN — maximal anonymitet utan konto\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.9\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"386\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"Product\",\"name\":\"ExpressVPN\",\"url\":\"https://expressvpn.com\",\"description\":\"Snabbast VPN på marknaden — Lightway-protokollet\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.7\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"107\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"Product\",\"name\":\"Surfshark\",\"url\":\"https://surfshark.com\",\"description\":\"Obegränsade enheter — bäst pris på marknaden\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"326\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"Product\",\"name\":\"CyberGhost\",\"url\":\"https://cyberghostvpn.com\",\"description\":\"Enklast att använda — perfekt för nybörjare\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"341\"}}}]}";
+const ITEM_LIST_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Bäst VPN för streaming 2026 — Jämför 5 Alternativ — Jämförelse 2026\",\"description\":\"Hitta den bästa VPN-tjänsten för streaming i Sverige\",\"numberOfItems\":5,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"Product\",\"name\":\"NordVPN\",\"url\":\"https://nordvpn.com\",\"description\":\"Världens ledande VPN — 6 000+ servrar globalt\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.8\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"161\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"Product\",\"name\":\"Mullvad\",\"url\":\"https://mullvad.net/sv\",\"description\":\"Svensk VPN — maximal anonymitet utan konto\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.9\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"296\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"Product\",\"name\":\"ExpressVPN\",\"url\":\"https://expressvpn.com\",\"description\":\"Snabbast VPN på marknaden — Lightway-protokollet\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.7\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"342\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"Product\",\"name\":\"Surfshark\",\"url\":\"https://surfshark.com\",\"description\":\"Obegränsade enheter — bäst pris på marknaden\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"398\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"Product\",\"name\":\"CyberGhost\",\"url\":\"https://cyberghostvpn.com\",\"description\":\"Enklast att använda — perfekt för nybörjare\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"347\"}}}]}";
 const ARTICLE_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Bäst VPN för streaming 2026 — Jämför 5 Alternativ\",\"description\":\"Hitta den bästa VPN-tjänsten för streaming i Sverige\",\"datePublished\":\"2026-06-23\",\"dateModified\":\"2026-06-23\",\"author\":{\"@type\":\"Organization\",\"name\":\"VPN Guiden\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"VPN Guiden\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://vpnkollen.vercel.app\"}}";
 const FAQ_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Vilken är den bästa VPN för streaming?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Den bästa VPN för streaming beror på dina behov. NordVPN och ExpressVPN är populära val tack vare deras höga hastigheter och säkerhet.\"}},{\"@type\":\"Question\",\"name\":\"Fungerar VPN för att streama Netflix?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, de flesta premium-VPN-tjänster fungerar för att streama Netflix. ExpressVPN och Surfshark är kända för att kringgå Netflix geografiska begränsningar.\"}},{\"@type\":\"Question\",\"name\":\"Är det lagligt att använda VPN i Sverige?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, det är helt lagligt att använda en VPN i Sverige. Det hjälper till att skydda din integritet och ger dig tillgång till blockerat innehåll.\"}},{\"@type\":\"Question\",\"name\":\"Kan VPN sakta ner min internetanslutning?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, en VPN kan sakta ner din anslutning men premiumtjänster som NordVPN minimerar denna påverkan och erbjuder snabba hastigheter.\"}},{\"@type\":\"Question\",\"name\":\"Behöver jag en VPN för att streama sport?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, en VPN kan hjälpa dig att komma åt sportevenemang som sänds utanför ditt land genom att byta din IP-adress.\"}},{\"@type\":\"Question\",\"name\":\"Hur installerar jag en VPN på min TV?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"De flesta VPN-tjänster erbjuder appar för smart-TV. Du kan också installera VPN på din router för att täcka alla anslutna enheter.\"}},{\"@type\":\"Question\",\"name\":\"Vilken VPN är bäst för nybörjare?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Surfshark är ofta rekommenderad för nybörjare tack vare sin användarvänliga app och prisvärda abonnemang.\"}},{\"@type\":\"Question\",\"name\":\"Kan jag använda gratis VPN för streaming?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Gratis VPN-tjänster är ofta begränsade i hastighet och datamängd, vilket kan påverka streamingupplevelsen negativt.\"}}]}";
 
@@ -24,14 +24,28 @@ export async function getStaticProps() {
 export default function Home({ providers, year, month, updated }) {
   const [sortBy, setSortBy] = useState('betyg');
   const [showAll, setShowAll] = useState(false);
+  const [selected, setSelected] = useState([]);
+  const [showCompare, setShowCompare] = useState(false);
   
 
+  var extractNum = function(p) {
+    if (p.rateValue) return parseFloat(p.rateValue);
+    if (p.priceValue) return parseFloat(p.priceValue);
+    var m = String(p.price||'').match(/[0-9]+[.,]?[0-9]*/);
+    return m ? parseFloat(m[0].replace(',','.')) : 9999;
+  };
   var sorted = [...providers].sort(function(a, b) {
-    if (sortBy === 'pris') return parseFloat(a.rateValue||a.priceValue||99) - parseFloat(b.rateValue||b.priceValue||99);
+    if (sortBy === 'pris') return extractNum(a) - extractNum(b);
     if (sortBy === 'namn') return a.name.localeCompare(b.name, 'sv');
     return parseFloat(b.score||b.rating||0) - parseFloat(a.score||a.rating||0);
   });
-  var visible = showAll ? sorted : sorted.slice(0, 7);
+  var visible = showAll ? sorted : sorted.slice(0, 5);
+  var toggleSelect = function(name) {
+    setSelected(function(prev) {
+      return prev.includes(name) ? prev.filter(function(n){return n!==name;}) : prev.length < 3 ? prev.concat([name]) : prev;
+    });
+  };
+  var selectedProviders = providers.filter(function(p){return selected.includes(p.name);});
 
   const pc = '#6d28d9';
   const pcLight = '#6d28d914';
@@ -117,7 +131,7 @@ export default function Home({ providers, year, month, updated }) {
               <div style={{ display:'inline-flex', alignItems:'center', gap:5,
                 background:'#fefce8', color:'#854d0e', padding:'4px 12px', borderRadius:20,
                 fontSize:12, fontWeight:700 }}>
-                ✓ Baserat på 33 timmars research
+                ✓ Baserat på 35 timmars research
               </div>
             </div>
             <h1 style={{ fontSize:'clamp(26px,4vw,46px)', fontWeight:800,
@@ -224,6 +238,16 @@ export default function Home({ providers, year, month, updated }) {
                     fontSize:11, fontWeight:700, padding:'3px 10px',
                     borderRadius:8 }}>{p.badge}</div>
                   <AffBtn url={p.url} name={p.name} primary={i===0} />
+                  <button onClick={() => toggleSelect(p.name)}
+                    style={{ padding:'7px 14px', borderRadius:8, fontSize:12, fontWeight:600,
+                      cursor: selected.includes(p.name) || selected.length < 3 ? 'pointer' : 'not-allowed',
+                      fontFamily:'Inter,sans-serif', border:'1px solid',
+                      borderColor: selected.includes(p.name) ? pc : '#e2e8f0',
+                      background: selected.includes(p.name) ? pcLight : '#fff',
+                      color: selected.includes(p.name) ? pc : '#64748b',
+                      opacity: !selected.includes(p.name) && selected.length >= 3 ? 0.4 : 1 }}>
+                    {selected.includes(p.name) ? '✓ Vald' : '+ Jämför'}
+                  </button>
                 </div>
               </div>
             </div>
@@ -231,7 +255,7 @@ export default function Home({ providers, year, month, updated }) {
         </div>
 
         <div style={{ textAlign:'center', marginTop:20, marginBottom:4 }}>
-          {!showAll && providers.length > 7 && (
+          {!showAll && providers.length > 5 && (
             <button onClick={() => setShowAll(true)}
               style={{ padding:'10px 28px', borderRadius:24, fontSize:14, fontWeight:700,
                 cursor:'pointer', fontFamily:'Inter,sans-serif',
@@ -249,8 +273,95 @@ export default function Home({ providers, year, month, updated }) {
           )}
           <p style={{ margin:'4px 0 0', fontSize:13, color:'#94a3b8' }}>
             Visar {visible.length} av {providers.length} alternativ
+            {selected.length > 0 && <span style={{ marginLeft:12, color:pc, fontWeight:600 }}>{selected.length} valda för jämförelse</span>}
           </p>
         </div>
+
+        {selected.length >= 2 && (
+          <div style={{ position:'fixed', bottom:0, left:0, right:0, zIndex:80,
+            background:'#0f172a', padding:'14px 20px', fontFamily:'Inter,sans-serif',
+            display:'flex', alignItems:'center', justifyContent:'center', gap:14, flexWrap:'wrap',
+            boxShadow:'0 -4px 32px rgba(0,0,0,0.25)' }}>
+            <span style={{ color:'#e2e8f0', fontWeight:600, fontSize:14 }}>
+              {selected.length} valda: {selected.join(' vs ')}
+            </span>
+            <button onClick={() => setShowCompare(true)}
+              style={{ background:pc, color:'#fff', border:'none', borderRadius:8,
+                padding:'9px 22px', fontWeight:700, fontSize:14, cursor:'pointer', fontFamily:'Inter,sans-serif' }}>
+              Jämför nu →
+            </button>
+            <button onClick={() => setSelected([])}
+              style={{ background:'transparent', color:'#94a3b8', border:'1px solid #334155',
+                borderRadius:8, padding:'9px 14px', fontSize:13, cursor:'pointer', fontFamily:'Inter,sans-serif' }}>
+              Rensa
+            </button>
+          </div>
+        )}
+
+        {showCompare && (
+          <div onClick={() => setShowCompare(false)} style={{ position:'fixed', inset:0, background:'rgba(0,0,0,0.72)', zIndex:200,
+            display:'flex', alignItems:'flex-start', justifyContent:'center',
+            padding:'24px 16px', overflowY:'auto', fontFamily:'Inter,sans-serif' }}>
+            <div onClick={e => e.stopPropagation()} style={{ background:'#fff', borderRadius:16,
+              width:'100%', maxWidth: selectedProviders.length === 2 ? 700 : 940,
+              padding:28, marginTop:12, marginBottom:24 }}>
+              <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:24 }}>
+                <h3 style={{ fontSize:20, fontWeight:800, margin:0, color:'#0f172a' }}>
+                  Jämförelse — {selectedProviders.map(function(p){return p.name;}).join(' vs ')}
+                </h3>
+                <button onClick={() => setShowCompare(false)}
+                  style={{ background:'none', border:'none', fontSize:22, cursor:'pointer', color:'#94a3b8' }}>✕</button>
+              </div>
+              <div style={{ display:'grid', gridTemplateColumns: selectedProviders.map(function(){return '1fr';}).join(' '), gap:14 }}>
+                {selectedProviders.map(function(p) { return (
+                  <div key={p.name} style={{ border:'2px solid '+pc+'30', borderRadius:12, padding:'20px 18px',
+                    display:'flex', flexDirection:'column', gap:10 }}>
+                    <div style={{ fontWeight:800, fontSize:17, color:'#0f172a', borderBottom:'1px solid #f1f5f9', paddingBottom:10 }}>{p.name}</div>
+                    <div>
+                      <div style={{ fontSize:11, color:'#94a3b8', fontWeight:600, marginBottom:2 }}>PRIS</div>
+                      <div style={{ fontSize:20, fontWeight:800, color:pc }}>{p.currentPrice||p.price||'—'}</div>
+                    </div>
+                    <div>
+                      <div style={{ fontSize:11, color:'#94a3b8', fontWeight:600, marginBottom:2 }}>BETYG</div>
+                      <Stars score={p.score} />
+                    </div>
+                    {p.badge && (
+                      <div>
+                        <div style={{ fontSize:11, color:'#94a3b8', fontWeight:600, marginBottom:2 }}>UTMÄRKELSE</div>
+                        <div style={{ background:'#f0fdf4', color:'#15803d', fontSize:11, fontWeight:700, padding:'4px 10px', borderRadius:8, display:'inline-block' }}>{p.badge}</div>
+                      </div>
+                    )}
+                    {p.description && (
+                      <div>
+                        <div style={{ fontSize:11, color:'#94a3b8', fontWeight:600, marginBottom:2 }}>OM TJÄNSTEN</div>
+                        <div style={{ fontSize:13, color:'#475569', lineHeight:1.5 }}>{p.description}</div>
+                      </div>
+                    )}
+                    {p.pros && p.pros.length > 0 && (
+                      <div>
+                        <div style={{ fontSize:11, color:'#94a3b8', fontWeight:600, marginBottom:6 }}>FÖRDELAR</div>
+                        <div style={{ display:'flex', flexDirection:'column', gap:5 }}>
+                          {p.pros.map(function(pro,j){return(
+                            <div key={j} style={{ display:'flex', gap:6, fontSize:13 }}>
+                              <span style={{ color:pc, fontWeight:700, flexShrink:0 }}>✓</span>
+                              <span style={{ color:'#374151' }}>{pro}</span>
+                            </div>
+                          );})}
+                        </div>
+                      </div>
+                    )}
+                    <div style={{ marginTop:'auto', paddingTop:10 }}>
+                      <AffBtn url={p.url} name={p.name} primary={true} />
+                    </div>
+                  </div>
+                );})}
+              </div>
+              <p style={{ marginTop:16, fontSize:12, color:'#94a3b8', textAlign:'center' }}>
+                * Stäng för att välja fler alternativ eller byta urval.
+              </p>
+            </div>
+          </div>
+        )}
 
         <p style={{ marginTop:16, fontSize:12, color:'#94a3b8', textAlign:'center' }}>
           * Vi kan erhålla provision vid val via våra länkar. Det påverkar aldrig priset för dig eller våra oberoende betyg.
