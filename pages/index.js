@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const WEB_PAGE_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Bäst VPN för streaming 2026 | Jämför & Välj\",\"description\":\"Bäst VPN för streaming 2026 ✓ Uppdaterad 2026. Jämför 5 alternativ och hitta den perfekta för ditt behov. Läs mer och börja streama säkert.\",\"url\":\"https://vpnkollen.vercel.app\",\"datePublished\":\"2026-06-23\",\"dateModified\":\"2026-06-23\",\"inLanguage\":\"sv-SE\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"VPN Guiden\",\"url\":\"https://vpnkollen.vercel.app\"},\"breadcrumb\":{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Hem\",\"item\":\"https://vpnkollen.vercel.app\"}]}}";
-const ITEM_LIST_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Bäst VPN för streaming 2026 — Jämför 5 Alternativ — Jämförelse 2026\",\"description\":\"Hitta den bästa VPN-tjänsten för streaming i Sverige\",\"numberOfItems\":5,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"Product\",\"name\":\"NordVPN\",\"url\":\"https://nordvpn.com\",\"description\":\"Världens ledande VPN — 6 000+ servrar globalt\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.8\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"161\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"Product\",\"name\":\"Mullvad\",\"url\":\"https://mullvad.net/sv\",\"description\":\"Svensk VPN — maximal anonymitet utan konto\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.9\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"296\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"Product\",\"name\":\"ExpressVPN\",\"url\":\"https://expressvpn.com\",\"description\":\"Snabbast VPN på marknaden — Lightway-protokollet\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.7\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"342\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"Product\",\"name\":\"Surfshark\",\"url\":\"https://surfshark.com\",\"description\":\"Obegränsade enheter — bäst pris på marknaden\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"398\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"Product\",\"name\":\"CyberGhost\",\"url\":\"https://cyberghostvpn.com\",\"description\":\"Enklast att använda — perfekt för nybörjare\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"347\"}}}]}";
+const ITEM_LIST_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Bäst VPN för streaming 2026 — Jämför 5 Alternativ — Jämförelse 2026\",\"description\":\"Hitta den bästa VPN-tjänsten för streaming i Sverige\",\"numberOfItems\":8,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"Product\",\"name\":\"NordVPN\",\"url\":\"https://nordvpn.com\",\"description\":\"Världens ledande VPN — 6 000+ servrar globalt\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.8\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"111\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"Product\",\"name\":\"Mullvad\",\"url\":\"https://mullvad.net/sv\",\"description\":\"Svensk VPN — maximal anonymitet utan konto\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.9\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"305\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"Product\",\"name\":\"ExpressVPN\",\"url\":\"https://expressvpn.com\",\"description\":\"Snabbast VPN på marknaden — Lightway-protokollet\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.7\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"143\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"Product\",\"name\":\"Surfshark\",\"url\":\"https://surfshark.com\",\"description\":\"Obegränsade enheter — bäst pris på marknaden\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"453\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"Product\",\"name\":\"CyberGhost\",\"url\":\"https://cyberghostvpn.com\",\"description\":\"Enklast att använda — perfekt för nybörjare\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"498\"}}},{\"@type\":\"ListItem\",\"position\":6,\"item\":{\"@type\":\"Product\",\"name\":\"Proton VPN\",\"url\":\"https://protonvpn.com\",\"description\":\"Schweizisk VPN med öppen källkod — maxsäkerhet\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.7\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"232\"}}},{\"@type\":\"ListItem\",\"position\":7,\"item\":{\"@type\":\"Product\",\"name\":\"PIA VPN\",\"url\":\"https://privateinternetaccess.com\",\"description\":\"Lågt pris, hög prestanda — 35 000+ servrar\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.4\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"365\"}}},{\"@type\":\"ListItem\",\"position\":8,\"item\":{\"@type\":\"Product\",\"name\":\"Hide.me\",\"url\":\"https://hide.me/sv\",\"description\":\"Gratis plan med 10 GB — EU-baserad och GDPR-säker\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.3\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"385\"}}}]}";
 const ARTICLE_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Bäst VPN för streaming 2026 — Jämför 5 Alternativ\",\"description\":\"Hitta den bästa VPN-tjänsten för streaming i Sverige\",\"datePublished\":\"2026-06-23\",\"dateModified\":\"2026-06-23\",\"author\":{\"@type\":\"Organization\",\"name\":\"VPN Guiden\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"VPN Guiden\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://vpnkollen.vercel.app\"}}";
 const FAQ_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Vilken är den bästa VPN för streaming?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Den bästa VPN för streaming beror på dina behov. NordVPN och ExpressVPN är populära val tack vare deras höga hastigheter och säkerhet.\"}},{\"@type\":\"Question\",\"name\":\"Fungerar VPN för att streama Netflix?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, de flesta premium-VPN-tjänster fungerar för att streama Netflix. ExpressVPN och Surfshark är kända för att kringgå Netflix geografiska begränsningar.\"}},{\"@type\":\"Question\",\"name\":\"Är det lagligt att använda VPN i Sverige?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, det är helt lagligt att använda en VPN i Sverige. Det hjälper till att skydda din integritet och ger dig tillgång till blockerat innehåll.\"}},{\"@type\":\"Question\",\"name\":\"Kan VPN sakta ner min internetanslutning?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, en VPN kan sakta ner din anslutning men premiumtjänster som NordVPN minimerar denna påverkan och erbjuder snabba hastigheter.\"}},{\"@type\":\"Question\",\"name\":\"Behöver jag en VPN för att streama sport?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, en VPN kan hjälpa dig att komma åt sportevenemang som sänds utanför ditt land genom att byta din IP-adress.\"}},{\"@type\":\"Question\",\"name\":\"Hur installerar jag en VPN på min TV?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"De flesta VPN-tjänster erbjuder appar för smart-TV. Du kan också installera VPN på din router för att täcka alla anslutna enheter.\"}},{\"@type\":\"Question\",\"name\":\"Vilken VPN är bäst för nybörjare?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Surfshark är ofta rekommenderad för nybörjare tack vare sin användarvänliga app och prisvärda abonnemang.\"}},{\"@type\":\"Question\",\"name\":\"Kan jag använda gratis VPN för streaming?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Gratis VPN-tjänster är ofta begränsade i hastighet och datamängd, vilket kan påverka streamingupplevelsen negativt.\"}}]}";
 
@@ -12,7 +12,7 @@ export async function getStaticProps() {
   var year = now.getFullYear();
   var month = now.toLocaleDateString('sv-SE', { month: 'long' });
   var updated = now.toLocaleDateString('sv-SE', { year: 'numeric', month: 'long', day: 'numeric' });
-  var fallback = [{"name":"NordVPN","url":"https://nordvpn.com","description":"Världens ledande VPN — 6 000+ servrar globalt","badge":"Bäst totalt","score":"4.8","price":"69 kr/mån","pros":["6 000+ servrar i 111 länder","Double VPN för extra kryptering","30 dagars nöjd-kund-garanti"]},{"name":"Mullvad","url":"https://mullvad.net/sv","description":"Svensk VPN — maximal anonymitet utan konto","badge":"Bäst integritet","score":"4.9","price":"53 kr/mån","pros":["Helt anonym — inget konto behövs","Ingen loggning av aktivitet","Betala kontant"]},{"name":"ExpressVPN","url":"https://expressvpn.com","description":"Snabbast VPN på marknaden — Lightway-protokollet","badge":"Snabbast","score":"4.7","price":"99 kr/mån","pros":["Lightway ger maxhastighet","94 länder, 160 platser","Smart DNS ingår"]},{"name":"Surfshark","url":"https://surfshark.com","description":"Obegränsade enheter — bäst pris på marknaden","badge":"Bäst pris","score":"4.6","price":"29 kr/mån","pros":["Obegränsade enheter","CleanWeb adblocker ingår","Camouflage-läge"]},{"name":"CyberGhost","url":"https://cyberghostvpn.com","description":"Enklast att använda — perfekt för nybörjare","badge":"Bäst för nybörjare","score":"4.5","price":"45 kr/mån","pros":["Enkel ett-klick-anslutning","9 000+ servrar","45 dagars pengarna-tillbaka"]}];
+  var fallback = [{"name":"NordVPN","url":"https://nordvpn.com","description":"Världens ledande VPN — 6 000+ servrar globalt","badge":"Bäst totalt","score":"4.8","price":"69 kr/mån","priceValue":69,"pros":["6 000+ servrar i 111 länder","Double VPN för extra kryptering","30 dagars nöjd-kund-garanti"]},{"name":"Mullvad","url":"https://mullvad.net/sv","description":"Svensk VPN — maximal anonymitet utan konto","badge":"Bäst integritet","score":"4.9","price":"53 kr/mån","priceValue":53,"pros":["Helt anonym — inget konto behövs","Ingen loggning av aktivitet","Betala kontant"]},{"name":"ExpressVPN","url":"https://expressvpn.com","description":"Snabbast VPN på marknaden — Lightway-protokollet","badge":"Snabbast","score":"4.7","price":"99 kr/mån","priceValue":99,"pros":["Lightway ger maxhastighet","94 länder, 160 platser","Smart DNS ingår"]},{"name":"Surfshark","url":"https://surfshark.com","description":"Obegränsade enheter — bäst pris på marknaden","badge":"Bäst pris","score":"4.6","price":"29 kr/mån","priceValue":29,"pros":["Obegränsade enheter","CleanWeb adblocker ingår","Camouflage-läge"]},{"name":"CyberGhost","url":"https://cyberghostvpn.com","description":"Enklast att använda — perfekt för nybörjare","badge":"Bäst för nybörjare","score":"4.5","price":"45 kr/mån","priceValue":45,"pros":["Enkel ett-klick-anslutning","9 000+ servrar","45 dagars pengarna-tillbaka"]},{"name":"Proton VPN","url":"https://protonvpn.com","description":"Schweizisk VPN med öppen källkod — maxsäkerhet","badge":"Bäst öppen källkod","score":"4.7","price":"59 kr/mån","priceValue":59,"pros":["Öppen källkod","Gratis plan tillgänglig","Baserad i Schweiz"]},{"name":"PIA VPN","url":"https://privateinternetaccess.com","description":"Lågt pris, hög prestanda — 35 000+ servrar","badge":"Flest servrar","score":"4.4","price":"25 kr/mån","priceValue":25,"pros":["35 000+ servrar i 91 länder","Konfigurerbar säkerhet","Ingen loggning"]},{"name":"Hide.me","url":"https://hide.me/sv","description":"Gratis plan med 10 GB — EU-baserad och GDPR-säker","badge":"Bäst gratis plan","score":"4.3","price":"från 0 kr/mån","priceValue":0,"pros":["Gratis 10 GB/mån","EU-baserad GDPR-säker","Ingen annonsering"]}];
   var items = fallback.slice();
 
   return {
@@ -23,7 +23,7 @@ export async function getStaticProps() {
 
 export default function Home({ providers, year, month, updated }) {
   const [sortBy, setSortBy] = useState('betyg');
-  const [showAll, setShowAll] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(5);
   const [selected, setSelected] = useState([]);
   const [showCompare, setShowCompare] = useState(false);
   
@@ -39,7 +39,7 @@ export default function Home({ providers, year, month, updated }) {
     if (sortBy === 'namn') return a.name.localeCompare(b.name, 'sv');
     return parseFloat(b.score||b.rating||0) - parseFloat(a.score||a.rating||0);
   });
-  var visible = showAll ? sorted : sorted.slice(0, 5);
+  var visible = sorted.slice(0, visibleCount);
   var toggleSelect = function(name) {
     setSelected(function(prev) {
       return prev.includes(name) ? prev.filter(function(n){return n!==name;}) : prev.length < 3 ? prev.concat([name]) : prev;
@@ -131,7 +131,7 @@ export default function Home({ providers, year, month, updated }) {
               <div style={{ display:'inline-flex', alignItems:'center', gap:5,
                 background:'#fefce8', color:'#854d0e', padding:'4px 12px', borderRadius:20,
                 fontSize:12, fontWeight:700 }}>
-                ✓ Baserat på 35 timmars research
+                ✓ Baserat på 44 timmars research
               </div>
             </div>
             <h1 style={{ fontSize:'clamp(26px,4vw,46px)', fontWeight:800,
@@ -254,26 +254,29 @@ export default function Home({ providers, year, month, updated }) {
           ))}
         </div>
 
-        <div style={{ textAlign:'center', marginTop:20, marginBottom:4 }}>
-          {!showAll && providers.length > 5 && (
-            <button onClick={() => setShowAll(true)}
+        <div style={{ textAlign:'center', marginTop:20, marginBottom:4, display:'flex', flexDirection:'column', alignItems:'center', gap:8 }}>
+          {visibleCount < sorted.length && (
+            <button onClick={() => setVisibleCount(function(c){ return Math.min(c + 5, sorted.length); })}
               style={{ padding:'10px 28px', borderRadius:24, fontSize:14, fontWeight:700,
                 cursor:'pointer', fontFamily:'Inter,sans-serif',
-                border:'2px solid '+pc, background:'#fff', color:pc, marginBottom:8 }}>
-              Visa alla {providers.length} alternativ ↓
+                border:'2px solid '+pc, background:'#fff', color:pc }}>
+              Visa 5 fler ↓ &nbsp;<span style={{ fontWeight:400, fontSize:13, opacity:0.7 }}>({sorted.length - visibleCount} återstår)</span>
             </button>
           )}
-          {showAll && (
-            <button onClick={() => setShowAll(false)}
+          {visibleCount >= sorted.length && sorted.length > 5 && (
+            <button onClick={() => setVisibleCount(5)}
               style={{ padding:'10px 28px', borderRadius:24, fontSize:14, fontWeight:700,
                 cursor:'pointer', fontFamily:'Inter,sans-serif',
-                border:'2px solid #e2e8f0', background:'#fff', color:'#64748b', marginBottom:8 }}>
+                border:'2px solid #e2e8f0', background:'#fff', color:'#64748b' }}>
               Visa färre ↑
             </button>
           )}
-          <p style={{ margin:'4px 0 0', fontSize:13, color:'#94a3b8' }}>
-            Visar {visible.length} av {providers.length} alternativ
+          <p style={{ margin:0, fontSize:13, color:'#94a3b8' }}>
+            Visar {visible.length} av {sorted.length} alternativ
             {selected.length > 0 && <span style={{ marginLeft:12, color:pc, fontWeight:600 }}>{selected.length} valda för jämförelse</span>}
+          </p>
+          <p style={{ margin:0, fontSize:11, color:'#cbd5e1' }}>
+            Priser är riktpriser — klicka på ett alternativ för aktuellt pris hos respektive leverantör
           </p>
         </div>
 
@@ -417,7 +420,7 @@ export default function Home({ providers, year, month, updated }) {
             <div style={{ maxWidth:260 }}>
               <div style={{ fontWeight:800, color:'#fff', fontSize:18, marginBottom:10 }}>VPN Guiden</div>
               <p style={{ fontSize:13, lineHeight:1.75 }}>
-                Oberoende jämförelsetjänst för svenska konsumenter. Vi jämför 5 alternativ inom vpn.
+                Oberoende jämförelsetjänst för svenska konsumenter. Vi jämför 8 alternativ inom vpn.
               </p>
             </div>
             <div>
@@ -446,7 +449,7 @@ export default function Home({ providers, year, month, updated }) {
                 <Link href="/jamfor/nordvpn-vs-expressvpn" style={{color:'#94a3b8',textDecoration:'none',fontSize:13}}>NordVPN vs ExpressVPN</Link>
                 <Link href="/jamfor/nordvpn-vs-surfshark" style={{color:'#94a3b8',textDecoration:'none',fontSize:13}}>NordVPN vs Surfshark</Link>
                 <Link href="/jamfor/nordvpn-vs-cyberghost" style={{color:'#94a3b8',textDecoration:'none',fontSize:13}}>NordVPN vs CyberGhost</Link>
-                <Link href="/jamfor/mullvad-vs-expressvpn" style={{color:'#94a3b8',textDecoration:'none',fontSize:13}}>Mullvad vs ExpressVPN</Link>
+                <Link href="/jamfor/nordvpn-vs-proton-vpn" style={{color:'#94a3b8',textDecoration:'none',fontSize:13}}>NordVPN vs Proton VPN</Link>
               </div>
             </div>
           </div>
